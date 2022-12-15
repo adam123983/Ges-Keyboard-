@@ -11,8 +11,6 @@ class Template(list):
     def __init__(self, name, points):
         self.name = name
         super(Template, self).__init__(points)
-#In Python 3, the super(Template, self) call is equivalent to the parameterless super() call.
-#The first parameter refers to the subclass Template, while the second parameter refers to a Template object which, in this case, is self.
 
 class WordTemplates:
     def __init__(self, keys_info):
